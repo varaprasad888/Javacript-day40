@@ -169,11 +169,12 @@ img{
     height:200px;
     /* border: 2px solid red; */
     object-fit:cover;
+    overflow:hidden;
 }
 .image-cont > img{
       width:230px;
       height:200px;
-      transform:translateX(60px);
+      transform:scale(1.2);
 }
 .cont-item{
     width:100%;
